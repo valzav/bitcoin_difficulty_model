@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["vz@valzav.com"]
   gem.description   = %q{This model forecasts Bitcoin network difficulty on a day by day basis using historical difficulty/hash rate data and monthly growth rate as inputs.}
   gem.summary       = %q{Bitcoin Difficulty Model}
-  gem.homepage      = "https://github.com/Valls/bitcoin_difficulty_model"
+  gem.homepage      = "https://github.com/valzav/bitcoin_difficulty_model"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

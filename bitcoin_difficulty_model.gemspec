@@ -4,9 +4,9 @@ require File.expand_path('../lib/bitcoin_difficulty_model/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Valentine Zavgorodnev"]
   gem.email         = ["vz@valzav.com"]
-  gem.description   = %q{This model forecasts bitcoin daily difficulty using historical difficulty/hash rate data and monthly growth rate as inputs.}
+  gem.description   = %q{This model forecasts Bitcoin network difficulty on a day by day basis using historical difficulty/hash rate data and monthly growth rate as inputs.}
   gem.summary       = %q{Bitcoin Difficulty Model}
-  gem.homepage      = "http://www.bitreturn.com"
+  gem.homepage      = "https://github.com/Valls/bitcoin_difficulty_model"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
